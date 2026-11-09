@@ -20,6 +20,8 @@ export const projects: Project[] = [
   { title: "Brand Identity", category: "Logo", year: "2026", image: "/images/projects/logo-02.webp", description: "Logo concept and visual identity." },
   { title: "Brand Identity", category: "Logo", year: "2026", image: "/images/projects/logo-03.webp", description: "Logo concept and visual identity." },
   { title: "Brand Identity", category: "Logo", year: "2026", image: "/images/projects/logo-04.webp", description: "Logo concept and visual identity." },
+  { title: "Brand Identity", category: "Logo", year: "2026", image: "/images/projects/logo-05.webp", description: "Logo concept and visual identity." },
+  { title: "Brand Identity", category: "Logo", year: "2026", image: "/images/projects/logo-06.webp", description: "Logo concept and visual identity." },
 
   
   { title: "Visual Campaign", category: "Banner", year: "2026", image: "/images/projects/banner-01.svg", description: "Promotional banner and campaign visual." },
