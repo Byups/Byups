@@ -30,12 +30,18 @@ export default function Hero() {
         <motion.div initial={{ opacity: 0, x: 45, scale: .94 }} animate={{ opacity: 1, x: 0, scale: 1 }} transition={{ duration: 1, delay: .15 }} className="relative mx-auto w-full max-w-[470px]">
           <motion.div animate={{ scale: [1, 1.12, 1], opacity: [.35, .55, .35] }} transition={{ duration: 6, repeat: Infinity }} className="absolute inset-[12%] rounded-full bg-red-600/50 blur-[90px]" />
           <div className="relative aspect-[4/5] overflow-hidden rounded-t-[48%] border border-red-500/30 bg-gradient-to-b from-[#42151b] via-[#171012] to-[#080808]">
-            <div className="absolute inset-0 flex flex-col items-center justify-center">
+            <Image
+              src="/images/profile.png" alt="My Profile" fill priority className="object-contain object-bottom"/>
+
+
+            {/* <div className="absolute inset-0 flex flex-col items-center justify-center">
               <div className="text-[clamp(6rem,18vw,11rem)] font-black tracking-[-.1em] text-white/[.09]">ME</div>
               <p className="mt-2 text-[10px] tracking-[.35em] text-white/40">ADD YOUR PORTRAIT</p>
-            </div>
+            </div> */}
+
+
             <div className="absolute inset-0 bg-gradient-to-t from-[#080808] via-transparent to-transparent" />
-            <div className="absolute bottom-7 left-0 right-0 text-center text-[10px] tracking-[.3em] text-white/60">BAYU BAYU / CREATIVE</div>
+            <div className="absolute bottom-17 left-0 right-0 text-center text-[10px] tracking-[.3em] text-white/60">BAYU SAPUTRA / CREATIVE</div>
           </div>
           <motion.div animate={{ y: [-10, 10, -10], rotate: [0, 7, 0] }} transition={{ duration: 5, repeat: Infinity }} className="glass absolute -right-4 top-20 flex h-14 w-14 items-center justify-center rounded-2xl text-[#ef4754] shadow-[0_0_35px_rgba(227,38,54,.18)]">
             <Sparkles size={25} />

@@ -47,6 +47,15 @@ export const projects: Project[] = [
   { title: "Quiet Geometry", category: "Photography", year: "2026", image: "/images/photography/photo-13.webp", description: "Light, shape, and quiet moments." },
   { title: "Quiet Geometry", category: "Photography", year: "2026", image: "/images/photography/photo-14.webp", description: "Light, shape, and quiet moments." },
   { title: "Quiet Geometry", category: "Photography", year: "2026", image: "/images/photography/photo-15.webp", description: "Light, shape, and quiet moments." },
-  { title: "Quiet Geometry", category: "Photography", year: "2026", image: "/images/photography/photo-16.webp", description: "Light, shape, and quiet moments." }
+  { title: "Quiet Geometry", category: "Photography", year: "2026", image: "/images/photography/photo-16.webp", description: "Light, shape, and quiet moments." },
+  { title: "Quiet Geometry", category: "Photography", year: "2026", image: "/images/photography/photo-17.webp", description: "Light, shape, and quiet moments." },
+  { title: "Quiet Geometry", category: "Photography", year: "2026", image: "/images/photography/photo-18.webp", description: "Light, shape, and quiet moments." },
+  { title: "Quiet Geometry", category: "Photography", year: "2026", image: "/images/photography/photo-19.webp", description: "Light, shape, and quiet moments." },
+  { title: "Quiet Geometry", category: "Photography", year: "2026", image: "/images/photography/photo-20.webp", description: "Light, shape, and quiet moments." },
+  { title: "Quiet Geometry", category: "Photography", year: "2026", image: "/images/photography/photo-21.webp", description: "Light, shape, and quiet moments." },
+  { title: "Quiet Geometry", category: "Photography", year: "2026", image: "/images/photography/photo-22.webp", description: "Light, shape, and quiet moments." },
+  { title: "Quiet Geometry", category: "Photography", year: "2026", image: "/images/photography/photo-23.webp", description: "Light, shape, and quiet moments." },
+  { title: "Quiet Geometry", category: "Photography", year: "2026", image: "/images/photography/photo-24.webp", description: "Light, shape, and quiet moments." },
+  { title: "Quiet Geometry", category: "Photography", year: "2026", image: "/images/photography/photo-25.webp", description: "Light, shape, and quiet moments." }
 
 ];

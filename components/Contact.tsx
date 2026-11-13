@@ -13,7 +13,7 @@ export default function Contact() {
         <div className="mt-9 flex flex-wrap gap-3">
           <a href="mailto:your.email@example.com" className="inline-flex items-center gap-3 rounded-full bg-[#e32636] px-6 py-4 text-xs font-bold transition hover:bg-red-700"><Mail size={16} /> EMAIL ME <ArrowUpRight size={15} /></a>
           <a href="https://instagram.com/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-3 rounded-full border border-white/15 px-6 py-4 text-xs font-semibold transition hover:border-red-500"><Instagram size={16} /> INSTAGRAM</a>
-          <a href="https://wa.me/6283125288785" target="_blank" rel="noreferrer" className="inline-flex items-center gap-3 rounded-full border border-white/15 px-6 py- text-xs font-semibold transition hover:border-green-500 hover:text-green-500"> <MessageCircle size={16} /> WHATSAPP </a>
+          <a href="https://wa.me/6283125288785" target="_blank" rel="noreferrer" className="inline-flex items-center gap-3 rounded-full border border-white/15 px-6 py-4 text-xs font-semibold transition hover:border-green-500 hover:text-green-500"> <MessageCircle size={16} /> WHATSAPP </a>
         </div>
         <p className="mt-6 text-[10px] text-zinc-600">Remember to replace the sample email and social links with your own.</p>
       </motion.div>
