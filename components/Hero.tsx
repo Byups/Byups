@@ -31,7 +31,7 @@ export default function Hero() {
           <motion.div animate={{ scale: [1, 1.12, 1], opacity: [.35, .55, .35] }} transition={{ duration: 6, repeat: Infinity }} className="absolute inset-[12%] rounded-full bg-red-600/50 blur-[90px]" />
           <div className="relative aspect-[4/5] overflow-hidden rounded-t-[48%] border border-red-500/30 bg-gradient-to-b from-[#42151b] via-[#171012] to-[#080808]">
             <Image
-              src="/images/profile.png" alt="My Profile" fill priority className="object-contain object-bottom"/>
+              src="/images/profile.png" alt="My Profile" fill priority className="object-contain object-bottom scale-118"/>
 
 
             {/* <div className="absolute inset-0 flex flex-col items-center justify-center">
